@@ -1,0 +1,157 @@
+body {
+    font-family: Georgia;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Judul dan Keterangan */
+header {
+    align-items: center;
+    margin: 2px;
+    padding: 5px;
+    border: 1px none black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    background-color: skyblue;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Form Input & Output */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.output {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 200px;   
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tombol {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgba(0, 128, 0, 0.5);
+    color: black;
+}
+
+.button-reset {
+    margin: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(255, 0, 0, 0.5);
+    color: black;
+}
+
+.button-reverse {
+    margin: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(255, 255, 0, 0.5);
+    color: black;
+}
+
+.kalkulasi {
+    text-align: center;
+    margin-top: 30px
+}
+
+.input-kalkulasi {
+    width: 500px;
+}
+
+/* Keterangan Rumus */
+.keterangan {
+    width: 600px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.kotak-rumus-kalkulasi {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.rumus-kalkulasi {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.atau {
+    font-size: px;
+    text-align: center;
+}
+
